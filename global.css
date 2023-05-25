@@ -1,0 +1,48 @@
+:root {
+    --input-bg-color: #555;
+    --input-text-color: #ded;
+}
+
+body {
+    background-color: #333;
+    color: whitesmoke;
+    font-family: 'Poppins', sans-serif;
+}
+
+.app-wrapper {
+    background: #444;
+    padding: 16px 12px;
+    margin: 16px 8px;
+}
+
+#main-text,
+#word,
+button[type=submit] {
+    width: 100%;
+    background: var(--input-bg-color);
+    color: var(--input-text-color);
+    font-family: inherit;
+    font-size: large;
+}
+
+
+button[type=submit] {
+    max-width: 120px;
+}
+
+.bottom-wrapper {
+    display: flex;
+}
+
+.message-success {
+    color: lime;
+}
+
+.message-error {
+    color: tomato;
+}
+
+a,
+a:visited {
+    color: rgb(0, 140, 255);
+}

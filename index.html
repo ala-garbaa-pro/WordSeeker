@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <title>Word Seeker</title>
+    <link rel="stylesheet" href="./global.css">
+</head>
+
+<body>
+    <h1>Word Seeker</h1>
+    <hr />
+    <div class="app-wrapper">
+        <form onsubmit="return onSubmitFormHandler(event)">
+            <textarea name="main-text" id="main-text" cols="32"
+                rows="5">To get the value of the input and textarea in JavaScript, you can use the value property of the respective elements.</textarea>
+            <div class="bottom-wrapper">
+                <input id="word" type="text" placeholder="Search word in the text..." value="JavaScript">
+                <button type="submit">Search</button>
+            </div>
+        </form>
+        <br />
+        <hr />
+        <br />
+        <span id="display-message">&gt; Click on the search button to start</span>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 Ala GARBAA | <a href="https://www.alagarbaa.com">www.AlaGARBAA.com</a></p>
+    </footer>
+
+    <script src="./app.js"></script>
+</body>
+
+</html>
